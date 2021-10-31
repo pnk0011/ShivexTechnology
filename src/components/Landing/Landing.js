@@ -106,8 +106,8 @@ function Landing() {
         />
       </div>
       <div className="intro" style={{ position: "absolute" }}>
-        Powering Enterprises and Startups by building amazing digital products
-        and experiences.
+        Powering Enterprises and Startups By Building Amazing Digital Products
+        and Experiences.
       </div>
       <div
         className="subIntro"

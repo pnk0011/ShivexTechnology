@@ -134,7 +134,7 @@ function Navbar() {
   return (
     <div
       className="navbar"
-      style={{ backgroundColor: "#212121", height: "60px" }}
+      style={{ backgroundColor: "black", height: "60px" }}
     >
       <div className="navbar--container">
         <div className="logo-name">
@@ -160,7 +160,7 @@ function Navbar() {
             Shivex Technology
           </h3>
         </div>
-        <div className="navbar-text" style={{ color: "white", width: "40%" }}>
+        <div className="navbar-text" style={{ color: "white", width: "30%" }}>
           <NavLink to="/" smooth={true} spy="true" duration={2000}>
             <h4 className="text-list">Home</h4>
           </NavLink>
@@ -170,9 +170,9 @@ function Navbar() {
           <NavLink to="/#about" smooth={true} spy="true" duration={2000}>
             <h4 className="text-list">About</h4>
           </NavLink>
-          <NavLink to="/#blogs" smooth={true} spy="true" duration={2000}>
+          {/* <NavLink to="/#blogs" smooth={true} spy="true" duration={2000}>
             <h4 className="text-list">Our Work</h4>
-          </NavLink>
+          </NavLink> */}
           <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>
             <h4 className="text-list">Contact Us</h4>
           </NavLink>
@@ -245,14 +245,14 @@ function Navbar() {
                 </div>
               </NavLink>
             </Fade>
-            <Fade left>
+            {/* <Fade left>
               <NavLink to="/#blog" smooth={true} spy="true" duration={2000}>
                 <div className={classes.drawerItem}>
                   <FaUser className={classes.drawerIcon} />
                   <span className={classes.drawerLinks}>Our Work</span>
                 </div>
               </NavLink>
-            </Fade>
+            </Fade> */}
 
             <Fade left>
               <NavLink to="/#contacts" smooth={true} spy="true" duration={2000}>

@@ -170,6 +170,7 @@ function Contacts() {
                   type="text"
                   name="Name"
                   className={`form-input ${classes.input}`}
+                  placeholder="Your Name"
                 />
               </div>
               <div className="input-container">
@@ -182,6 +183,7 @@ function Contacts() {
                   type="email"
                   name="Email"
                   className={`form-input ${classes.input}`}
+                  placeholder="Your Email ID"
                 />
               </div>
               <div className="input-container">
